@@ -25,3 +25,9 @@ console.log(document.querySelectorAll(".text-danger"));
 const h1 = document.querySelector("h1.tagName");
 console.log(h1);
 //className es una propiedad que muestra el nombre de la clase que lleva el elemento
+
+
+
+
+//revisar el enlace
+const url= "https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics";
