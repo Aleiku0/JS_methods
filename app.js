@@ -8,15 +8,16 @@ Document.createDocumentFragment()
 Document.createElement(String name)
 #getElementById
 -----------------------------------------------------------------------------------------------*/
-// document.addEventListener("DOMContentLoaded"){
+// document.addEventListener("DOMContentLoaded",()=>{
 
 //     console.log(document.getElementById("tituloWeb"));
 //     console.log(document.getElementById("tituloWeb").textContent);
 
-// };//permite carga el navegador html y arbol dom esta construido.perp el codigo debe estar dentro
+// });//permite carga el navegador html y arbol dom esta construido pero el codigo debe estar dentro (el codigo que acceda al DOM)
 
 console.log(document.getElementById("tituloWeb"));
 console.log(document.getElementById("tituloWeb").textContent);
+//console.log(document.getElementById("tituloWeb").innerHTML);
 console.log(document.querySelector( " .text-primary "));//selecciona el primer elemento
 console.log(document.querySelectorAll(".text-danger"));
 
