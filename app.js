@@ -15,11 +15,13 @@ Document.createElement(String name)
 
 // });//permite carga el navegador html y arbol dom esta construido pero el codigo debe estar dentro (el codigo que acceda al DOM)
 
+
+
 console.log(document.getElementById("tituloWeb"));
 console.log(document.getElementById("tituloWeb").textContent);
 //console.log(document.getElementById("tituloWeb").innerHTML);
 console.log(document.querySelector( " .text-primary "));//selecciona el primer elemento
-console.log(document.querySelectorAll(".text-danger"));
+console.log(document.querySelectorAll(".container .text-danger"));
 
 //todos estos elementos seleccionados generalmente se guardan:
 
@@ -27,7 +29,12 @@ const h1 = document.querySelector("h1.tagName");
 console.log(h1);
 //className es una propiedad que muestra el nombre de la clase que lleva el elemento
 
+containerText = document.querySelectorAll(".container .text-danger");
+console.log(containerText);
 
+containerText.forEach((elementos) => {
+    console.log(elementos.textContent);
+});
 
 
 //revisar el enlace
