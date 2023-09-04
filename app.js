@@ -39,3 +39,8 @@ containerText.forEach((elementos) => {
 
 //revisar el enlace
 const url= "https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics";
+
+
+const elemento = document.getElementById("tituloWeb");
+elemento.textContent = "Hola que hace?";
+elemento.style.backgroundColor = "green";
